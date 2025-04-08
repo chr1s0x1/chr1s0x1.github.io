@@ -1,10 +1,14 @@
 
 
 body {
+    background-image: url('../images/homepage-image.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     background-color: 	#645c51;
     margin: 0;
     margin-top: -16px;
  }
+
 
  /* ----- NAVBAR AND HOMEPAGE IMAGE ----- */
 
@@ -32,58 +36,27 @@ body {
 }
 
 .main-topic h1 {
+    margin-top: 200px;
     text-align: center;
-    margin-bottom: -100px;
 }
 
 main {
-    min-height: 100vh;
-}
-
-.main-topic > .img-hpg > img {
-    margin-top: -16px;
-    height: 600px;
-    width: 100%;
-}
-
-
-.img-hpg {
-    padding-bottom: 400px;
+    min-height: 62vh;
 }
 
 .main-topic h1 {
     font-size: 5em;
-    margin-top: -400px;
     color: white;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px;
 }
 
-.main-topic > .img-hpg > h2 {
+.main-topic h2 {
     font-size: 45px;
-    margin-top: 150px;
     color: white;
     text-align: center;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px;
-}
-
-/* ----- ACCESS DIV CLASS ----- */
-
-.access h1 {
-    margin-top: -100px;
-    text-align: left;
-    font-family: sans-serif;
-    color: white;
-}
-
-.access > .create-1 > img {
-    height: 325px;
-}
-
-.access create-1 {
-    display: flex;
-    flex-direction: row;
 }
 
 /* ----- FOOTER ----- */
