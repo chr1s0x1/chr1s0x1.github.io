@@ -1,0 +1,54 @@
+body {
+    background-image: url('../images/course-img-bg.jpg');
+    background-repeat: no-repeat;
+    margin: 0;
+    margin-top: -16px;
+}
+
+.navbar > ul {
+    list-style-type: none;
+    display: flex;
+    padding-top: 0;
+    background-color:#515964;
+    height: 80px;
+    text-transform: uppercase;
+}
+
+.navbar a, li {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+    margin-right: 20px;
+    font-size: 30px;
+    margin-top: 23px;
+}
+
+.navbar li > a:hover {
+    background-color: white;
+    color: black;
+}
+
+p {
+    background-color: #727881;
+    max-width: 45%;
+    font-size: 30px;
+    line-height: 45px;
+    margin: 0 auto;
+    margin-top: 3em;
+    color: white;
+    font-family: sans-serif;
+    border-radius: 15px 15px;
+    padding: 25px;
+    margin-bottom: 100px;
+}
+
+h3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    font-size: 50px;
+    margin-top: 50px;
+    background: linear-gradient(#727881, #0000000d);
+    max-width: 30%;
+    padding-left: 50px;
+}
