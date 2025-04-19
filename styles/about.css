@@ -32,10 +32,10 @@ body {
 }
 
 .divider {
-    margin-top: -5px;
+    margin-top: -25px;
     margin-left: 50px;
     margin-bottom: 20px;
-    width: 300px;
+    width: 400px;
     color: white;
     border-bottom: 5px solid white;
 }
@@ -57,16 +57,23 @@ body {
  h3 {
     color: white;
     font-family: sans-serif;
-    font-size: 30px;
+    font-size: 50px;
     margin-left: 75px;
-    margin-top: -15px;
+    margin-top: -30px;
 }
 
-p, ul, li {
+ul.my-info, li.my-info {
         color: white;
         font-family: sans-serif;
         font-size: 20px;
         margin-left: 20px;
+}
+
+p {
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
 }
 
 .my-info {
