@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
     { text: 'Midterm', href:'itis3135/hobby/index.html'}
     ];
     
-    navItems.forEach(item => {
+    navItems.forEach((item) => {
     const li = document.createElement('li');
     const a = document.createElement('a');
     a.href = item.href;

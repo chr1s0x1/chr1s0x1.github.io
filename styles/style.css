@@ -35,23 +35,20 @@ body {
     color: black;
 }
 
-.main-topic h1 {
+h1 {
     margin-top: 200px;
     text-align: center;
-}
-
-main {
-    min-height: 73.5vh;
-}
-
-.main-topic h1 {
     font-size: 5em;
     color: white;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px;
 }
 
-.main-topic h2 {
+main {
+    min-height: 73.5vh;
+}
+
+h2 {
     font-size: 45px;
     color: white;
     text-align: center;
