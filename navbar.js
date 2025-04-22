@@ -9,9 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const navItems = [
     { text: 'Home', href: 'index.html' },
     { text: 'About Me', href: 'about.html' },
-    { text: 'Course', href: 'itis3135/index.html' },
-    { text: 'Contract', href: 'contract.html' },
-    { text: 'Midterm', href:'itis3135/hobby/index.html'}
+    { text: 'ITIS3135', href: 'itis3135/index.html' }
     ];
     
     navItems.forEach((item) => {
