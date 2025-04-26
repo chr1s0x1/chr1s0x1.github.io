@@ -1,0 +1,50 @@
+ul {
+    display: flex;
+    list-style: none;
+    background-color: grey;
+    padding-bottom: 25px;
+}
+
+li {
+    padding-left: 20px;
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+h1 {
+    color: red;
+    font-family: sans-serif;
+    margin-top: 120px;
+}
+
+h2 {
+    margin-bottom: -70px;
+    font-size: 55px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aqua;
+    text-decoration: underline;
+}
+
+h3 {
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+.borderrr {
+    border: solid red;
+    border-width: 50px;
+}
+
+img {
+    height: 400px;
+    width: 400px;
+}
+
+#centered {
+    align-items: center;
+    list-style: circle;
+}
+
+#poop {
+    width: 55%;
+    height: 500px;
+}

@@ -8,10 +8,10 @@ document.addEventListener('DOMContentLoaded', function() {
     
     const navItems = [
     { text: 'Home', href: '../index.html' },
-    { text: 'About Me', href: 'introduction.html' },
-    { text: 'Course', href: 'index.html' },
+    { text: 'Introduction', href: 'introduction.html' },
+    { text: 'ITIS3135', href: 'index.html' },
     { text: 'Contract', href: 'contract.html' },
-    {text: 'Crappy', href: 'crappy/index.html'},
+    {text: 'Crappy', href: 'stuff123456/INdeX f1l@.htm'},
     { text: 'Midterm', href:'hobby/index.html'}
     ];
     
