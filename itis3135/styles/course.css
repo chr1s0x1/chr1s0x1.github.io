@@ -32,7 +32,6 @@ body {
 .content {
     background-color: #515964;
     width: 100vw;
-    /*border-radius: 14px 14px 0 0;  we'll use this somewhere else */ 
     height: 55vh;
     margin-top: 100px;
     margin-bottom: 50px;
@@ -51,7 +50,7 @@ h1 {
 
 .line {
     margin-top: -25px;
-    border: 2px solid white;
+    border-bottom: 5px solid white;
     width: 500px;
     margin-left: 20px;
 }
@@ -71,7 +70,8 @@ h3 {
     margin-left: 20px;
 }
 
-p {
+
+.container p {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
@@ -87,11 +87,10 @@ p {
 }
 
 .container img {
-    max-height: 450px;
-    max-width: 85%;
     margin-left: 100px;
-    margin-top: -105px;
+    margin-top: -135px;
     border-radius: 15px;
+    padding-left: 10px;
 }
 
 footer {

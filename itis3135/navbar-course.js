@@ -7,11 +7,10 @@ document.addEventListener('DOMContentLoaded', function() {
     const ul = document.createElement('ul');
     
     const navItems = [
-    { text: 'Home', href: '../index.html' },
+    { text: 'Home', href: 'index.html' },
     { text: 'Introduction', href: 'introduction.html' },
-    { text: 'ITIS3135', href: 'index.html' },
     { text: 'Contract', href: 'contract.html' },
-    {text: 'Crappy', href: 'stuff123456/INdeX f1l@.htm'},
+    { text: 'Crappy', href: 'stuff123456/INdeX f1l@.htm'},
     { text: 'Midterm', href:'hobby/index.html'}
     ];
     
