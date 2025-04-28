@@ -11,7 +11,8 @@ document.addEventListener('DOMContentLoaded', function() {
     { text: 'Introduction', href: 'introduction.html' },
     { text: 'Contract', href: 'contract.html' },
     { text: 'Crappy', href: 'stuff123456/INdeX f1l@.htm'},
-    { text: 'Midterm', href:'hobby/index.html'}
+    { text: 'Midterm', href: 'hobby/index.html'},
+    { text: 'Client Project', href: 'project/index.html'}
     ];
     
     navItems.forEach((item) => {

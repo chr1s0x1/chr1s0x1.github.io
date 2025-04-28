@@ -61,6 +61,8 @@ h2 > span {
     color: #00b295;
 }
 
+/* ----- END OF NAVBAR CSS CODE ----- */
+
 h2 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial;
     text-align: center;
@@ -102,6 +104,7 @@ img {
 .container2 > p {
     padding-right: 120px;
     padding-left: 50px;
+    text-align: right;
 }
 
 .container2 img {
@@ -137,7 +140,7 @@ img {
 
 .buttons > a {
     font-size: 30px;
-    margin-right: 40px;
+    margin-right: -20px;
     margin: 0 auto;
 }
 
@@ -178,6 +181,7 @@ img {
 .container3 {
     display: flex;
     flex-wrap: wrap;
+    padding-bottom: 5em;
 }
 
 .container3 h3 {
@@ -187,18 +191,19 @@ img {
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 30px;
-    margin-left: -50px;
+    margin-left: -15px;
 }
 
 #author {
     color:rgb(99, 99, 111);
     font-size: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-top: 30px;
+    padding-top: 40px;
+    margin-left: -150px;
 }
 
 .container3 img {
-    width: 25%;
+    width: 20%;
     border-radius: 2%;
     height: auto;
     margin-left: 50px;
@@ -209,7 +214,15 @@ img {
     line-height: 45px;
     font-size: 23px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-right: 75px;
+    margin-right: 125px;
+    text-align: right;
+}
+
+p:nth-last-child(2) {
+    font-size: 25px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 

@@ -1,0 +1,138 @@
+body {
+    background-color: #00b295;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.navbar {
+    margin-top: -16px;
+    width: 100vw;
+    margin-bottom: 70px;
+    background-color: white;
+}
+
+.navbar > ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding-top: 15px;
+    margin-left: -30px;
+}
+
+
+.navbar a:not(.title) {
+    padding-top: 50px;
+    margin-left: 25px;
+    font-size: 30px;
+    color: rgb(134, 74, 190);
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif, bold;
+}
+
+
+.navbar h1 {
+    font-size: 40px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px 10px 0 0;
+    margin: 0;
+    background-color: #00b295;
+    height: 40px;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif, bold;
+}
+
+.title {
+    text-decoration: none;
+    color: white
+}
+
+.Mtitle {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.Mtitle h2 {
+    padding-right: 700px;
+}
+
+.Mtitle img {
+    width: 12%;
+    height: auto;
+    margin-top: -50px;
+}
+
+.navbar li > a:hover {
+    transition: 0.2s ease;
+    opacity: 45%;
+    color: #00b295;
+}
+
+
+h2:not(.content1 h2) {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial;
+    color: white;
+    font-size: 4em;
+    margin-left:50px;
+}
+
+.content1 {
+    background-color: white;
+}
+
+.content1 img {
+    padding-top: 5rem;
+    align-items: center;
+    display: block;
+    margin: auto;
+}
+
+.content1 h2 {
+    color: rgb(134, 74, 190);
+    font-size: 3.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: block;
+}
+
+.container p {
+    max-width: 55%;
+    font-size: 25px;
+    text-align: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0 auto;
+    line-height: 40px;
+    margin-top: 75px;
+}
+
+.container img {
+    margin-top: -100px;
+}
+
+.container {
+    display: flex;
+    padding-bottom: 5em;
+}
+
+/* --- FOOTER CSS CODE STARTS HERE --- */
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+}
+
+footer a:not(.credits a), footer li:not(.credits li) {
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.credits {
+    display: flex;
+}
