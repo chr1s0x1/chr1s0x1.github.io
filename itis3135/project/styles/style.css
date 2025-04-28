@@ -28,6 +28,7 @@ h2 > span {
 
 
 .navbar a:not(.title) {
+    padding-top: 50px;
     margin-left: 25px;
     font-size: 30px;
     color: rgb(134, 74, 190);
@@ -90,7 +91,7 @@ img {
 
 .container {
     display: flex;
-    padding-bottom: 3em;
+    padding-bottom: 15em;
 }
 
 .container2 {
@@ -99,15 +100,17 @@ img {
 }
 
 .container2 > p {
-    padding-right: 40px;
+    padding-right: 120px;
+    padding-left: 50px;
 }
 
 .container2 img {
     border-radius: 3%;
-    width: 40%;
+    width: 45%;
     height: auto;
     box-shadow: 10px 10px 10px;
     margin-top:-30px;
+    margin-right: 60px;
 }
 
 .container img {
@@ -128,19 +131,85 @@ img {
 
 .buttons {
     display: flex;
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
 
 .buttons > a {
     font-size: 30px;
-    padding-right: 40px;
+    margin-right: 40px;
     margin: 0 auto;
 }
 
 #learn-more {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #00b295;
-    height: 50px;
     color: white;
+    padding: 15px;
+    border-radius: 10px;
+    border: 3px #00b295 solid;
+    background-color: #00b295;
+    text-decoration: none;
+}
+
+#learn-more:hover {
+    color: #00b295;
+    border: 3px #00b295 solid;
+    background-color: white;
+    transition: 0.2s ease;
+}
+
+#start-code {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    border: 3px rgb(134, 74, 190) solid;
+    background-color: rgb(134, 74, 190);
+    text-decoration: none;
+}
+
+#start-code:hover {
+    color: rgb(134, 74, 190);
+    border: 3px rgb(134, 74, 190) solid;
+    background-color: white;
+    transition: 0.2s ease;
+}
+
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container3 h3 {
+    text-align: center;
+    max-width: 65%;
+    color: rgb(134, 74, 190);
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 30px;
+    margin-left: -50px;
+}
+
+#author {
+    color:rgb(99, 99, 111);
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 30px;
+}
+
+.container3 img {
+    width: 25%;
+    border-radius: 2%;
+    height: auto;
+    margin-left: 50px;
+}
+
+.container3 p:not(#author) {
+    max-width: 55%;
+    line-height: 45px;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 75px;
 }
 
 
@@ -149,11 +218,16 @@ footer ul {
     flex-direction: row;
 }
 
-footer a:not(.c-link), footer li {
-    font-size: 30px;
+footer a:not(.credits a), footer li:not(.credits li) {
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
     margin: 0 auto;
     margin-top: 30px;
     text-decoration: none;
     list-style-type: none;
+}
+
+.credits {
+    display: flex;
 }
