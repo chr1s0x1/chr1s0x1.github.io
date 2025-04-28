@@ -225,6 +225,9 @@ p:nth-last-child(2) {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+footer {
+    border-top: 5px white solid;
+}
 
 footer ul {
     display: flex;

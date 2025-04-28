@@ -155,6 +155,10 @@ h2:not(.content1 h2) {
 
 /* --- FOOTER CSS CODE STARTS HERE --- */
 
+footer {
+    border-top: 5px white solid;
+}
+
 footer ul {
     display: flex;
     flex-direction: row;
