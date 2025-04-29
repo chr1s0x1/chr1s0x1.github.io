@@ -54,7 +54,7 @@ footer {
     clear: both;
     position: absolute;
     bottom: 0;
-    height: 150px;
+    height: 110px;
     width: 100vw;
 }
 
@@ -62,5 +62,5 @@ footer p {
     font-size: 25px;
     color: white;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 10px;
 }
