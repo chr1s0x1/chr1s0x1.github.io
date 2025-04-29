@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
     { text: 'Contract', href: 'contract.html' },
     { text: 'Crappy', href: 'stuff123456/INdeX f1l@.htm'},
     { text: 'Midterm', href: 'hobby/index.html'},
-    { text: 'Company', href: 'couragousbird/index.html'},
+    { text: 'Company', href: 'courageousbird/index.html'},
     { text: 'Client Project', href: 'project/index.html'}
     ];
     
