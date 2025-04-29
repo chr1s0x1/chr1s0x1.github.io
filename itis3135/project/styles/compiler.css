@@ -74,14 +74,9 @@ footer {
     margin-top: 5em;
 }
 
-footer ul {
-    display: flex;
-    flex-direction: row;
-}
-
-footer a:not(a.credits), footer li:not(li.credits) {
+footer a:not(a.credits) {
     font-size: 25px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:Arial, Helvetica, sans-serif;
     color: white;
     margin: 0 auto;
     margin-top: 30px;
@@ -89,6 +84,15 @@ footer a:not(a.credits), footer li:not(li.credits) {
     list-style-type: none;
 }
 
+footer p {
+    font-size: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
 .credits {
     display: flex;
+    padding-bottom: 45px;
 }

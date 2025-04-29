@@ -217,6 +217,8 @@ p:nth-last-child(2) {
 
 footer {
   border-top: 5px white solid;
+  width: 100vw;
+  padding-bottom: 50px;
 }
 
 footer ul {
@@ -224,20 +226,26 @@ footer ul {
   flex-direction: row;
 }
 
-footer a:not(a.credits ) {
+footer a:not(a.credits) {
   font-size: 25px;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family:Arial, Helvetica, sans-serif;
   color: white;
+  margin: 0 auto;
+  margin-top: 30px;
   text-decoration: none;
+  list-style-type: none;
 }
 
-footer li:not(li.credits) {
-margin:  0 auto;
+footer p {
+  font-size: 25px;
+  font-family:Arial, Helvetica, sans-serif;
+  color: white;
+  margin: 0 auto;
   margin-top: 30px;
-  list-style-type: none;
 }
 
 .credits {
   display: flex;
+  padding-bottom: 25px;
 }
 
