@@ -64,3 +64,10 @@ footer p {
     text-align: center;
     padding-top: 10px;
 }
+
+#img-cred {
+    text-align: center;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
