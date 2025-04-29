@@ -1,245 +1,247 @@
 body {
-    background-color: #00b295;
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    overflow-x: hidden;
+  background-color: #00b295;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow-x: hidden;
 }
 
 .navbar {
-    overflow: hidden;
-    padding-top: 20px;
-    width: 100vw;
-    background-color: white;
-    display: flex;
-    flex-direction: row;
+  overflow: hidden;
+  padding-top: 20px;
+  width: 100vw;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
 }
 
-
 .navbar a:not(.title) {
-    padding-top: 15px;
-    float:left;
-    text-align: center;
-    margin-left: 25px;
-    font-size: 30px;
-    color: rgb(134, 74, 190);
-    text-decoration: none;
-    font-family:Arial, Helvetica, sans-serif, bold;
+  padding-top: 15px;
+  float: left;
+  text-align: center;
+  margin-left: 25px;
+  font-size: 30px;
+  color: rgb(134, 74, 190);
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif, bold;
 }
 
 .nav-right {
-    float: right !important;
+  float: right !important;
 }
 
-
 .navbar h1 {
-    font-size: 40px;
-    padding-bottom: 15px;
-    border-radius: 10px 10px 0 0;
-    margin: 0;
-    background-color: #00b295;
-    height: 40px;
-    text-decoration: none;
-    font-family:Arial, Helvetica, sans-serif, bold;
+  font-size: 40px;
+  padding-bottom: 15px;
+  border-radius: 10px 10px 0 0;
+  margin: 0;
+  background-color: #00b295;
+  height: 40px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif, bold;
 }
 
 .navbar a:hover:not(.title) {
-    transition: 0.2s ease;
-    opacity: 45%;
-    color: #00b295;
+  transition: 0.2s ease;
+  opacity: 45%;
+  color: #00b295;
 }
 
 .title {
-    padding: 10px;
-    padding-right: 15px;
-    text-decoration: none;
-    color: white;
-    margin-top: 50px;
+  padding: 10px;
+  padding-right: 15px;
+  text-decoration: none;
+  color: white;
+  margin-top: 50px;
 }
 
 /* ----- END OF NAVBAR CSS CODE ----- */
 
 h2 {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial;
-    text-align: center;
-    color: white;
-    font-size: 4em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial;
+  text-align: center;
+  color: white;
+  font-size: 4em;
 }
 
 img {
-    height: 250px;
-    display: block;
-    margin: 0 auto;
+  height: 250px;
+  display: block;
+  margin: 0 auto;
 }
 
 #about {
-    background-color: white;
-    padding-top: 10px;
-    padding-bottom: 40px;
-    padding-left: 50px;
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  padding-left: 50px;
 }
 
-#about > h3 {
-    text-align: center;
-    color: rgb(134, 74, 190);
-    font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-bottom: 30px;
+#about h3 {
+  text-align: center;
+  color: rgb(134, 74, 190);
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 30px;
 }
 
 .container {
-    display: flex;
-    padding-bottom: 15em;
+  display: flex;
+  padding-bottom: 15em;
 }
 
 .container2 {
-    padding-bottom: 15em;
-    display: flex;
+  padding-bottom: 15em;
+  display: flex;
 }
 
 .container2 > p {
-    padding-right: 120px;
-    padding-left: 50px;
-    text-align: right;
+  padding-right: 120px;
+  padding-left: 50px;
+  text-align: right;
 }
 
 .container2 img {
-    border-radius: 3%;
-    width: 45%;
-    height: auto;
-    box-shadow: 10px 10px 10px;
-    margin-top:-30px;
-    margin-right: 60px;
+  border-radius: 3%;
+  width: 45%;
+  height: auto;
+  box-shadow: 10px 10px 10px;
+  margin-top: -30px;
+  margin-right: 60px;
 }
 
 .container img {
-    border-radius: 3%;
-    width: 40%;
-    height: auto;
-    box-shadow: 10px 10px 10px;
-    margin-top:-30px;
+  border-radius: 3%;
+  width: 40%;
+  height: auto;
+  box-shadow: 10px 10px 10px;
+  margin-top: -30px;
 }
 
-
-.container > p, .container2 > p {
-    font-family: sans-serif;
-    font-size: 22px;
-    max-width: 45%;
-    line-height: 40px;
+.container > p,
+.container2 > p {
+  font-family: sans-serif;
+  font-size: 22px;
+  max-width: 45%;
+  line-height: 40px;
 }
 
 .buttons {
-    display: flex;
-    padding-top: 50px;
-    padding-bottom: 20px;
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 .buttons > a {
-    font-size: 30px;
-    margin-right: -20px;
-    margin: 0 auto;
+  font-size: 30px;
+  margin-right: -20px;
+  margin: 0 auto;
 }
 
 #learn-more {
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    padding: 15px;
-    border-radius: 10px;
-    border: 3px #00b295 solid;
-    background-color: #00b295;
-    text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  border: 3px #00b295 solid;
+  background-color: #00b295;
+  text-decoration: none;
 }
 
 #learn-more:hover {
-    color: #00b295;
-    border: 3px #00b295 solid;
-    background-color: white;
-    transition: 0.2s ease;
+  color: #00b295;
+  border: 3px #00b295 solid;
+  background-color: white;
+  transition: 0.2s ease;
 }
 
 #start-code {
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    padding: 15px;
-    border-radius: 10px;
-    border: 3px rgb(134, 74, 190) solid;
-    background-color: rgb(134, 74, 190);
-    text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  border: 3px rgb(134, 74, 190) solid;
+  background-color: rgb(134, 74, 190);
+  text-decoration: none;
 }
 
 #start-code:hover {
-    color: rgb(134, 74, 190);
-    border: 3px rgb(134, 74, 190) solid;
-    background-color: white;
-    transition: 0.2s ease;
+  color: rgb(134, 74, 190);
+  border: 3px rgb(134, 74, 190) solid;
+  background-color: white;
+  transition: 0.2s ease;
 }
 
 .container3 {
-    display: flex;
-    flex-wrap: wrap;
-    padding-bottom: 5em;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 5em;
 }
 
 .container3 h3 {
-    text-align: center;
-    max-width: 65%;
-    color: rgb(134, 74, 190);
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-bottom: 30px;
-    margin-left: -15px;
+  text-align: center;
+  max-width: 65%;
+  color: rgb(134, 74, 190);
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 30px;
+  margin-left: -15px;
 }
 
 #author {
-    color:rgb(99, 99, 111);
-    font-size: 25px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-top: 40px;
-    margin-left: -150px;
+  color: rgb(99, 99, 111);
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-top: 40px;
+  margin-left: -150px;
 }
 
 .container3 img {
-    width: 20%;
-    border-radius: 2%;
-    height: auto;
-    margin-left: 50px;
+  width: 20%;
+  border-radius: 2%;
+  height: auto;
+  margin-left: 50px;
 }
 
 .container3 p:not(#author) {
-    max-width: 55%;
-    line-height: 45px;
-    font-size: 23px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-right: 125px;
-    text-align: right;
+  max-width: 55%;
+  line-height: 45px;
+  font-size: 23px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 125px;
+  text-align: right;
 }
 
 p:nth-last-child(2) {
-    font-size: 25px;
-    margin: 0 auto;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 footer {
-    border-top: 5px white solid;
+  border-top: 5px white solid;
 }
 
 footer ul {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
-footer a:not(.credits a), footer li:not(.credits li) {
-    font-size: 25px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: white;
-    margin: 0 auto;
-    margin-top: 30px;
-    text-decoration: none;
-    list-style-type: none;
+footer a:not(a.credits ) {
+  font-size: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+  text-decoration: none;
+}
+
+footer li:not(li.credits) {
+margin:  0 auto;
+  margin-top: 30px;
+  list-style-type: none;
 }
 
 .credits {
-    display: flex;
+  display: flex;
 }
+

@@ -74,7 +74,7 @@ body {
 }
 
 
-h2:not(.content1 h2) {
+h2:not(h2.content1) {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial;
     color: white;
     font-size: 4em;
@@ -169,7 +169,7 @@ footer ul {
     flex-direction: row;
 }
 
-footer a:not(.credits a), footer li:not(.credits li) {
+footer a:not(a.credits), footer li:not(li.credits) {
     font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;

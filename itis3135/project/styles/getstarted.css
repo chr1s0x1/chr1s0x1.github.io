@@ -174,7 +174,7 @@ h2 {
     padding-bottom: 20px;
 }
 
-#rsrc {
+.rsrc {
     padding: 20px;
     background-color: #00b295;
     border: 3px #00b295 solid;
@@ -185,7 +185,7 @@ h2 {
     color: white;
 }
 
-#rsrc:hover {
+.rsrc:hover {
     color: #00b295;
     background-color: white;
     transition: 0.2s ease;
@@ -207,7 +207,7 @@ footer ul {
     flex-direction: row;
 }
 
-footer a:not(.credits a), footer li:not(.credits li) {
+footer a:not(a.credits), footer li:not(li.credits) {
     font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;

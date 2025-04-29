@@ -83,7 +83,7 @@ footer ul {
     flex-direction: row;
 }
 
-footer a:not(.credits a), footer li:not(.credits li) {
+footer a:not(a.credits), footer li:not(li.credits) {
     font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: white;
