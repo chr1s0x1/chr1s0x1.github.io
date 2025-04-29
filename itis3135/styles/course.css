@@ -113,3 +113,9 @@ footer a, footer li {
     list-style-type: none;
 }
 
+#firm {
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+}

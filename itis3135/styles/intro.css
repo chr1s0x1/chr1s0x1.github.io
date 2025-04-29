@@ -77,7 +77,7 @@ ul.my-info, li.my-info {
         margin-left: 20px;
 }
 
-p {
+p:not(#firm) {
     color: white;
     font-family: sans-serif;
     font-size: 20px;
@@ -116,4 +116,11 @@ footer a, footer li {
 
 span {
     opacity: 55%;
+}
+
+#firm {
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
 }
