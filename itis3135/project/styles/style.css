@@ -8,7 +8,6 @@ body {
 
 .navbar {
   overflow: hidden;
-  padding-top: 20px;
   width: 100vw;
   background-color: white;
   display: flex;
@@ -16,7 +15,7 @@ body {
 }
 
 .navbar a:not(.title) {
-  padding-top: 15px;
+  padding-top: 65px;
   float: left;
   text-align: center;
   margin-left: 25px;
@@ -26,9 +25,8 @@ body {
   font-family: Arial, Helvetica, sans-serif, bold;
 }
 
-.navbar h1 {
+.active {
   font-size: 40px;
-  padding-bottom: 15px;
   border-radius: 10px 10px 0 0;
   margin: 0;
   background-color: #00b295;
@@ -43,10 +41,13 @@ body {
   color: #00b295;
 }
 
+
+
 .title {
   padding: 10px;
   padding-right: 15px;
   text-decoration: none;
+  font-weight: bold;
   color: white;
   margin-top: 50px;
 }
@@ -102,16 +103,15 @@ img {
   width: 45%;
   height: auto;
   box-shadow: 10px 10px 10px;
-  margin-top: -30px;
+  margin-top: 50px;
   margin-right: 60px;
 }
 
-.container img {
+#mySlides {
+  width: 100%;
   border-radius: 3%;
-  width: 40%;
-  height: auto;
   box-shadow: 10px 10px 10px;
-  margin-top: -30px;
+  margin-top: -70px;
 }
 
 .container > p,
@@ -226,7 +226,7 @@ footer ul {
   flex-direction: row;
 }
 
-footer a:not(a.credits) {
+footer a:not(.credits) {
   font-size: 25px;
   font-family:Arial, Helvetica, sans-serif;
   color: white;
