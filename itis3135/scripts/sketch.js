@@ -23,41 +23,6 @@ let frequency = [];
 // Declare the variable for the curve tightness
 let organicConstant = 1.0;
 
-function setup() {
-var myCanvas =   createCanvas(1000, 700);
-myCanvas.parent("interactive");
-
-  // Start in the center of the canvas
-  centerX = width / 2;
-  centerY = height / 2;
-
-  // Initialize arrays to 0
-  for (let i = 0; i < nodes; i++) {
-    nodeStartX[i] = 0;
-    nodeStartY[i] = 0;
-    nodeX[i] = 0;
-    nodeY[i] = 0;
-    angle[i] = 0;
-  }
-
-  // Initialize frequencies for corner nodes
-  for (let i = 0; i < nodes; i++) {
-    frequency[i] = random(5, 12);
-  }
-
-  noStroke();
-  angleMode(DEGREES);
-}
-
-function draw() {
-  // Use alpha blending for fade effect
-  background(0, 50);
-
-  // Draw and move the shape
-  drawShape();
-  moveShape();
-}
-
 function drawShape() {
   // Calculate node starting locations
   for (let i = 0; i < nodes; i++) {
@@ -108,4 +73,39 @@ function moveShape() {
     nodeY[i] = nodeStartY[i] + sin(angle[i]) * (accelY * 2);
     angle[i] += frequency[i];
   }
+}
+
+function setup() {
+var myCanvas =   createCanvas(1000, 700);
+myCanvas.parent("interactive");
+
+  // Start in the center of the canvas
+  centerX = width / 2;
+  centerY = height / 2;
+
+  // Initialize arrays to 0
+  for (let i = 0; i < nodes; i++) {
+    nodeStartX[i] = 0;
+    nodeStartY[i] = 0;
+    nodeX[i] = 0;
+    nodeY[i] = 0;
+    angle[i] = 0;
+  }
+
+  // Initialize frequencies for corner nodes
+  for (let i = 0; i < nodes; i++) {
+    frequency[i] = random(5, 12);
+  }
+
+  noStroke();
+  angleMode(DEGREES);
+}
+
+function draw() {
+  // Use alpha blending for fade effect
+  background(0, 50);
+
+  // Draw and move the shape
+  drawShape();
+  moveShape();
 }
