@@ -14,6 +14,14 @@ body {
   flex-direction: row;
 }
 
+
+h2 > span {
+  background: -webkit-linear-gradient(#5fb5e7, #ac579e);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
 .navbar a:not(.title) {
   padding-top: 65px;
   float: left;
