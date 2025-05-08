@@ -25,13 +25,18 @@ body {
     font-family: sans-serif;
     color: white;
     margin-right: 20px;
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 23px;
 }
 
 .navbar li > a:hover {
     background-color: white;
     color: black;
+}
+
+.navbar {
+    margin-left: -8px;
+    width: 100vw;
 }
 
 h1 {
@@ -45,9 +50,10 @@ h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 450px;
+    padding-left: 95px;
     width: 50%;
     padding-bottom: 5em;
+    box-sizing: border-box;
 }
 
 .numbertext {
@@ -79,6 +85,8 @@ h1 {
     border-radius: 10px 10px 10px 10px;
     user-select: none;
     -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
   }
 
   .next {
@@ -100,6 +108,8 @@ footer {
     background-color: #515964;
     height: 100px;
     width: 100vw;
+    margin-bottom: -16px;
+    margin-left: -8px;
 }
 
 footer ul {

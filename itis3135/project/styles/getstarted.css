@@ -30,9 +30,10 @@ body {
     font-size: 40px;
     padding-bottom: 15px;
     border-radius: 10px 10px 0 0;
+    box-sizing: border-box;
     margin: 0;
     background-color: #00b295;
-    height: 40px;
+    height: 60px;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif, bold;
   }
@@ -71,7 +72,8 @@ h2 {
 
 .step1 {
     padding: 50px;
-    width: 70%;
+    box-sizing: border-box;
+    width: 90%;
     background-color: darkslategrey;
     border-radius: 2%;
 }
@@ -104,7 +106,8 @@ h4 {
 
 .step2 {
     padding: 50px;
-    width: 70%;
+    box-sizing: border-box;
+    width: 90%;
     background-color: darkslategrey;
     border-radius: 2%;
 }
@@ -123,8 +126,9 @@ h4 {
 
 
 .step3 {
-    padding: 50px;
-    width: 70%;
+    padding: 70px;
+    box-sizing: border-box;
+    width: 90%;
     background-color: darkslategrey;
     border-radius: 2%;
 }
